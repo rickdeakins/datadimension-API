@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS wholepractice_db;
-CREATE DATABASE wholepractice_db;
+DROP DATABASE IF EXISTS wpd_db;
+CREATE DATABASE wpd_db;
 
 -- Patient tables --
-USE wholepractice_db;
+USE wpd_db;
 
 CREATE TABLE patient_basic (
 	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
