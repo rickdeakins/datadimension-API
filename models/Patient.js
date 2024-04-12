@@ -23,7 +23,7 @@ Patient.init(
       type: DataTypes.INTEGER
     },
     email_address: {
-      type: DataTypes.INTEGER
+      type: DataTypes.STRING
     }
   },
   {
@@ -31,7 +31,7 @@ Patient.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'book'
+    modelName: 'patient'
   }
 );
 
