@@ -3,9 +3,9 @@ const sequelize = require('../config/connection');
 
 class Finances extends Model {}
 
-Patient.init(
+Finances.init(
   {
-    patient_id: {
+    finances_id: {
       type: DataTypes.INTEGER,
       primaryKey: true,
       autoIncrement: true
